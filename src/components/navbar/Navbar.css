@@ -1,0 +1,160 @@
+/* #008000
+#000000
+#ffffff */
+
+
+
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+   
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    
+  }
+
+html{
+    top: 0;
+    left: 0;
+}
+
+.none{
+    display: none;
+}
+
+.trocatema{
+  color: var(--fonte);  
+}
+
+.containernav {
+    display: flex;
+    justify-content: space-between; /* Isso alinha os itens para os lados opostos (logo à esquerda, menu à direita) */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    padding: 0px 20px; /* Ajuste o padding conforme necessário */
+    margin-left: 0;
+}
+
+.abc{
+    margin: 5px;
+}
+
+
+.navbar{
+    left: 0;
+    background: #ededed;
+    display: flex;
+    border-bottom: 4px solid #00008b;
+    position: fixed;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between; /* Isso alinha os itens para os lados opostos (logo à esquerda, menu à direita) */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    align-items: end;
+}
+
+.margin-rigth{
+    margin-right: 50px;
+}
+
+.tm{
+    height: 50px;
+   display: flex;
+   align-items: flex-start;
+}
+
+.btn-design{
+    background-color: #ededed;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    transition: 0.5s ease;
+    color: #00008b;
+    border: none;
+    
+
+}
+
+.btn-design:hover{
+    font-size: 20px;
+    border: none;
+    
+}
+.icon{
+    width: 40px
+}
+
+
+
+@media (max-width:425px) {
+
+    .icon{
+        height: 100px;
+        width: 100px;
+    }
+
+    .navbar{
+        height: 140px;
+    }
+    
+
+    .btn-design{
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three{
+        background-color: var(--background);
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition: 0.5s;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+        transition: 0.5s;
+    }
+
+    .two:hover{
+        transform: rotate(360deg);
+    }
+
+    .padding{
+        padding-left: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .logo{
+        margin-left: -10000000px !important; 
+        margin-right: 50000px;
+    }
+   
+
+    /* fullscreen */
+
+    
+}

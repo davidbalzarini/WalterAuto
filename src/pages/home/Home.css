@@ -1,0 +1,35 @@
+.teste{
+    margin-top: 50px;
+    margin-left: 95px;
+    text-align: left;
+}
+
+.te{
+    visibility: hidden;
+}
+
+.imgT {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.a{
+    margin-top: 5px !important;
+    margin-left: 50px !important;
+}
+
+.testeS{
+    width: 86%;
+    margin-left: 100px;
+    height: 70px;
+    text-align: left;
+}
+
+.select-wrapper {
+    margin-bottom: 10px;
+}
+
+.select-wrapper.selected {
+    background-color: white; /* Estilo quando uma filial é selecionada */
+}

@@ -1,0 +1,56 @@
+.h5t{
+    color: #00008b;
+    text-align: center;
+}
+
+.buttont{
+    width: 200px;
+    color: #ffff;
+    background-color: #00008b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.media-card-image {
+    width: 100%; /* Ajuste o tamanho conforme necessário */
+    height: 200px; /* Ajuste o tamanho conforme necessário */
+    object-fit: contain; /* Controla como a imagem é ajustada */
+  }
+
+  .flip-card {
+    background-color: transparent;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  

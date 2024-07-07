@@ -1,0 +1,90 @@
+/* Estilos para o modal e sobreposição */
+.Overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal {
+    background: #fff;
+    padding: 70px;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.h2t {
+    color: #000080;
+  }
+
+h2 {
+    margin-top: 0;
+    color: #333; /* Ajuste a cor conforme seu tema */
+}
+
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Ajuste a cor conforme seu tema */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-designn {
+    background-color: #000080; /* Ajuste para a cor do seu projeto */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-designnn {
+    background-color: #fff; /* Ajuste para a cor do seu projeto */
+    color: #000080;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+.btn-designn:hover {
+    background-color: #000080; /* Ajuste para a cor do seu projeto */
+    color: #fff; /* Ajuste para a cor do seu projeto */
+}
+
+.btn-close {
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.btn-close:hover {
+    color: #333;
+}
